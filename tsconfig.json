@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es6",
+        "module": "ES2015",
+        "outDir": "docs/",
+        "typeRoots": ["./node_modules/@types",
+          "./del/types"
+        ]
+    },
+
+    "exclude": ["node_modules"]
+}
